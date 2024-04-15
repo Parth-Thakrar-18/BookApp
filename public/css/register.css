@@ -1,0 +1,121 @@
+body {
+  background-color: #080710!important;
+  font-family: Arial, Helvetica, sans-serif;
+
+  overflow: hidden;
+  /* ocultar barra de rolagem */
+}
+
+.area-sign-in {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #181920;
+  width: 540px;
+  height: 689px!important;
+  border-radius: 8px;
+  padding: 29px;
+}
+
+.sign-in form {
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+}
+
+.sign-in input {
+  margin-top: 15px;
+  background-color: #252a34;
+  color: #cbd0f7!important;
+  border: none;
+  height: 45px;
+  padding: 0 10px;
+  outline: none;
+  border-radius: 8px;
+}
+
+.sign-in img {
+  width: 65px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  color: #cbd0f7!important;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+form [type="submit"] {
+  display: inline-block;
+  background-color: #5568fe!important;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 25px 0;
+  cursor: pointer;
+
+  opacity: 0.8;
+}
+
+form [type="submit"]:hover {
+  opacity: 1;
+}
+
+p {
+  color: #cbd0f7!important;
+}
+
+p a {
+  color: #5568fe!important;
+  text-decoration: none;
+  font-weight: 500;
+}
+hr.new4 {
+  border: 1px solid #ffa12c!important;
+  width: 50%;
+}
+
+
+@media  (max-width:767px),(max-width:480px),(max-width:600px) {
+  .sign-in {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      background-color: #181920!important;
+      width: 260px;
+      height: 350px;
+      border-radius: 8px;
+      padding: 35px;
+    }
+}
+
+#male, #female ,#other{
+  color: #cbd0f7!important;
+}
+
+#freeform{
+  color: #cbd0f7!important ;
+}
+#tt{
+  color: #cbd0f7!important;
+  margin-top: 300px;
+  position: absolute;
+  font-size: 30PX;
+  margin-left: 40px;
+}
+

@@ -1,0 +1,37 @@
+ body footer#fbg{
+  background-color: #191C20!important;
+  color:white;
+}
+body footer#fbg .text-body{
+  color: white!important;
+}
+body footer#fbg #btn{
+  background-color: rgb(45, 45, 214);
+
+}
+button#btn{
+  margin-top: 40px!important;
+}
+#smedia{
+  float: left!important;
+  margin-left: 30px!important;
+}
+
+#smedia{
+  color: white!important;
+}
+#smedia #twi:hover{
+  color: skyblue!important;
+}
+#smedia #fb:hover{
+  color: blue!important;
+}
+#smedia #insta:hover{
+  color: purple!important;
+}
+#smedia #link:hover{
+  color: blue!important;
+}
+#smedia #git:hover{
+  color: rgb(238, 232, 232)!important;
+}
